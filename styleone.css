@@ -1,0 +1,11 @@
+td {
+    border: 2px solid rgba(31, 10, 223, 0.733);
+    padding: 15px;
+    font-size: large;
+}
+table.one{
+    empty-cells: show;
+}
+table.two{
+    empty-cells: hide;
+}

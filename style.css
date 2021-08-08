@@ -1,0 +1,42 @@
+ul{
+    width: 250px;
+}
+li{
+    margin: 10px;
+}
+ul.one{
+    list-style-position: inside;
+}
+ul.two{
+    list-style-position: outside;
+}
+ul.three{
+    list-style: inside circle;
+}
+body{
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    color: #111111;
+}
+table{
+    width: 600px;
+}
+th,td{
+    padding: 7px 10px 10px 10px;
+}
+th{
+    text-transform: uppercase;
+    font-size: large;
+    text-align: left;
+    letter-spacing: 0.1em;
+    border-bottom: 2px solid #111111;
+    border-top: 1px solid #999;
+}
+tr.even {
+    background-color: #efefef;
+}
+tr:hover {
+    background-color: #c3e6e5;
+}
+.money{
+    text-align: right;
+}
